@@ -10,5 +10,4 @@ def add_arguments():
 
     bucket_parser = argparse.ArgumentParser(parents=[sync_parser])
     bucket_parser.add_argument("--bucket-name", required=True, action="store")
-    # sync_parser.parse_args()
     return bucket_parser
