@@ -1,0 +1,10 @@
+# Python
+
+.pytest_cache/
+
+UNKNOWN.egg-info/
+dist/
+build/
+.venv/
+__pycache__/
+whathappened.egg-info/
