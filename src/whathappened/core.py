@@ -15,7 +15,7 @@ def main(args=None):
     if args is None:
         args = sys.argv[1:]
     parser = add_arguments()
-    arguments = parser.parse_args()
+    arguments = parser.parse_args(args)
     if arguments.sync:
         bucker_name = arguments.bucket_name
         print(f"Syncing {bucker_name} now")
