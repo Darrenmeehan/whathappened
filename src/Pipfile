@@ -5,12 +5,14 @@ verify_ssl = true
 
 [dev-packages]
 pytest = "*"
+pytest-cov = "*"
 
 [packages]
 boto3 = "*"
 setuptools = "*"
 pep517 = "*"
 whathappened = {editable = true, path = "."}
+pytest-cov = "*"
 
 [requires]
 python_version = "3.9"
