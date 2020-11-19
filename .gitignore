@@ -8,3 +8,9 @@ build/
 .venv/
 __pycache__/
 whathappened.egg-info/
+
+# Editors
+.vscode/
+
+# Testing
+.coverage
