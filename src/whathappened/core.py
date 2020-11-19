@@ -3,6 +3,7 @@
 from whathappened.cli import add_arguments
 from whathappened.aws_fun import list_bucket_objects
 
+
 def main():
     application_handler()
 
@@ -14,5 +15,6 @@ def application_handler():
         bucker_name = arguments.bucket_name
         print(f"Syncing {bucker_name} now")
 
-if __name__ == '__main__':
+
+if __name__ == "__main__":
     main()
