@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Set of this file somewhat changed based on some learnigs from the following -
+Set of this file somewhat changed based on some learnings from the following -
 https://chriswarrick.com/blog/2014/09/15/python-apps-the-right-way-entry_points-and-scripts/
 """
 
