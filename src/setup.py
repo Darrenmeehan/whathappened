@@ -7,6 +7,6 @@ if __name__ == "__main__":
         name="whathappened",
         version="1.0.0",
         description="Easily see what is happening in your AWS Account",
-        # entry_points=["whathappened=whathappened.core.main"],
+        entry_points={"console_scripts": ["whathappened = whathappened.core.main"]},
         packages=setuptools.find_packages(include="whathappened/*"),
     )
