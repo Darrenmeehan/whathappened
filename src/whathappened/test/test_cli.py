@@ -1,5 +1,4 @@
 import pytest
-import subprocess
 
 from whathappened.cli import add_arguments
 

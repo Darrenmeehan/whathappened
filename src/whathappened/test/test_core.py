@@ -1,7 +1,3 @@
-import subprocess
-
-import pytest
-
 from whathappened.core import main
 
 

@@ -6,9 +6,7 @@ https://chriswarrick.com/blog/2014/09/15/python-apps-the-right-way-entry_points-
 
 import sys
 
-# from whathappened.whathappened.cli import add_arguments
 from whathappened.cli import add_arguments
-from whathappened.aws_fun import list_bucket_objects
 
 
 def main(args=None):
