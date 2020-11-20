@@ -1,3 +1,7 @@
+"""
+Handle communcation with AWS.
+"""
+
 import boto3
 
 

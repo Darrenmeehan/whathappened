@@ -9,6 +9,7 @@ pytest-cov = "*"
 flake8 = "*"
 flake8-bugbear = "*"
 isort = "*"
+flake8-use-fstring = "*"
 
 [packages]
 boto3 = "*"
