@@ -15,8 +15,9 @@ def main(args=None):
     parser = add_arguments()
     arguments = parser.parse_args(args)
     if arguments.sync:
-        bucker_name = arguments.bucket_name
-        print(f"Syncing {bucker_name} now")
+        bucket_name = arguments.bucket_name
+        print(f"Syncing {bucket_name} now")
+        sync_bucket(bucket_name)
 
 
 if __name__ == "__main__":
