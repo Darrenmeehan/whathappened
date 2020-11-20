@@ -1,2 +1,3 @@
-- name: Python Blacken
-  uses: piotrpawlaczek/python-blacken@v20.8b1
+on: [push, pull_request]
+  - name: Python Blacken
+    uses: piotrpawlaczek/python-blacken@v20.8b1
