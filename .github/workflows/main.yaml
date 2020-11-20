@@ -9,4 +9,7 @@ jobs:
         uses: actions/checkout@v2
 
       - name: python-linter
-        uses: piotrpawlaczek/python-blacken@v20.8b1
+        uses: piotrpawlaczek/python-blacken@release/stable
+        with:
+          line-length: '88'
+          path: '.'
