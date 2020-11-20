@@ -1,8 +1,12 @@
 name: Code Formatting
 on: [push, pull_request]
 jobs:
+  python-linter:
+    name: Python
+    runs-on: ubuntu-latest
     steps:
-      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-      - uses: actions/checkout@v2
-    - name: Python Blacken
-      uses: piotrpawlaczek/python-blacken@v20.8b1
+      - name: checkout
+        uses: actions/checkout@v2
+
+      - name: python-linter
+        uses: piotrpawlaczek/python-blacken@v20.8b1
